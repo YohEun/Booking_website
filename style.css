@@ -93,11 +93,6 @@
     border: 2.5px solid #ff4d4d;
     color: #ff4d4d;
 }
-.hero-image{
-    flex: 1;
-    display: flex;
-    justify-content: center;
-}
 @media screen and (max-width:900px) {
     .hero{
         max-width: 100%;
