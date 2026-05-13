@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #555555;
+}
+.logo{
+    font-size: 2vw;
+    font-weight: 900;
+    color: #ff4d4d;
+}
+.span{
+    color: #000;
+}
+.nav-links{
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: #ff4d4d;
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+.nav-links li a:hover{
+    border-bottom: 4px solid #fff;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+/* body{
+    background:#fff8f0;
+} */
+.hero{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 8%;
+    gap: 50px;
+    background-image: url('img/top-view-delicious-eggplant-rolls-cooked-dish-with-potatoes-bread-loafs-dark-desk-cooking-food-fry-dish-bake-potato.jpg');
+    background-size: cover;
+}
+.hero-text{
+    flex: 1;
+    margin-bottom: 8%;
+}
+.hero-text h1{
+    font-size: 8vw;
+    color: #ff4d4d;
+    line-height: 1;
+    margin-bottom: 20px;
+    /* text-align: center; */
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal;
+   
+}
+.hero-text p{
+    font-size: 1.2vw;
+    color: #fff;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    max-width: 500px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.hero-text button{
+    padding: 14px 35px;
+    border: none;
+    background-color: #ff4d4d;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.hero-text button:hover{
+    background: none;
+    border: 2.5px solid #ff4d4d;
+    color: #ff4d4d;
+}
+.hero-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:900px) {
+    .hero{
+        max-width: 100%;
+    }
+    .hero-text h1{
+       font-size: 15vw;
+       text-align: center;
+    }
+    .hero-text p{
+        font-size: 3vw;
+        text-align: center;
+    }
+    .hero-text button{
+        margin-left: 33%;
+    }
+    .logo{
+        font-size: 3vw;
+    }
+    .nav-links li a{
+        font-size: 2vw;
+    }
+    .profile img{
+        width: 30px;
+        height: 30px;
+    }
+}
+.about{
+    background: #fff8f0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding: 80px 8%;
+    align-items: center;
+}
+.about-image{
+    flex: 1;
+}
+.about-image img{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+}
+.about-text{
+    flex: 1;
+}
+.about-text h2{
+    font-size: 3vw;
+    margin-bottom: 20px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.about-text p{
+    font-size: 1.2vw;
+    margin-bottom: 20px;
+    line-height: 1.7;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.about-text button{
+    padding: 14px 35px;
+    border: none;
+    background-color: #ff4d4d;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+@media screen and (max-width:900px) {
+    .about{
+        flex-direction: column;
+    }
+    .about-text h2{
+        text-align: center;
+        font-size: 5vw;
+    }
+    .about-text p{
+        text-align: center;
+        font-size: 2vw;
+    }
+    .about-text button{
+        margin-left: 36%;
+    }
+}
+
